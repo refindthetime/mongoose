@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <div id="wrapper">
+    <h2>Youtube Scraper</h2>
+    <h4><i><a href="/scrape">scrape again</a></i></h4>
+    <div id="articles"></div>
+    <div id="notes"></div>
+  </div>
+  <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+  <script src="app.js"></script>
+</body>
+  <style>
+    body{
+      background-color: red;
+    }
+    #wrapper{
+      width:960px;
+      margin: 0 auto;
+      padding-top: 30px;
+    }
+    #articles{
+
+    }
+    #notes{
+      width:30%;
+      float:right;
+    }
+
+input{
+ border: 0;
+ background: none;
+ box-shadow:none;
+}
+
+input[type="submit"]{
+
+  width: 302px;
+
+  font-size: small;
+  border-bottom: 1px #000000 solid;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+  border-right: 1px #000000 solid;
+  border-left: 1px #000000 solid;
+  text-align: left;
+  padding-right: 15px;
+}
+
+input[type="text"]{
+  padding-left: 10px;
+  width: 290px;
+
+  font-size: small;
+  border-top: 1px #000000 solid;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+  border-right: 1px #000000 solid;
+  border-left: 1px #000000 solid;
+
+}
+
+input[type="text"]:focus {
+  outline: 0;
+}
+
+    .myarticle{
+      border: 1px #000000 solid;
+      margin-bottom: 20px;
+      padding: 10px;
+      border-radius: 10px;
+      background-color: tan ;
+      width: 400px;
+    }
+    img{
+      border-radius: 10px;
+      border: 1px #333333 solid;
+      box-shadow: -1px 2px 5px;
+    }
+    textarea, input{
+      display:block;
+      width:100%;
+      background-color: #FCF5C7;
+    }
+    input{
+      height:36px;
+      font-size: 24px;
+    }
+    textarea{
+      height:200px;
+      font-size: 18px;
+    }
+  </style>
+</html>
